@@ -1,0 +1,14 @@
+USE Paw_Caelum;
+CREATE TABLE COMMUNICATIONS(
+    Communication_ID INT AUTO_INCREMENT PRIMARY KEY,
+    Content TEXT NOT NULL,
+    Type ENUM('TEXT', 'IMAGE','VIDEO') DEFAULT 'TEXT',
+    Text_Status ENUM('sent', 'delivered', 'read') DEFAULT 'sent',
+    sent_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    Sender INT NOT NULL,
+    Receiver INT NOT NULL,
+    FOREIGN KEY(Sender) REFERENCES User(User_id),
+    FOREIGN KEY(Receiver) REFERENCES User(User_id)
+);
+SHOW INDEX FROM Paw_Caelum.COMMUNICATIONS;
+SELECT * FROM Paw_Caelum.COMMUNICATIONS;

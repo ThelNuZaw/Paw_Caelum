@@ -1,0 +1,15 @@
+.DS_Store
+
+
+Paw_CaelumFR/bin/
+Paw_CaelumFR/target
+
+Paw_CaelumFR/.idea/
+Paw_CaelumFR/*.iml
+Paw_CaelumFR/.classpath
+Paw_CaelumFR/.project
+Paw_CaelumFR/.settings/
+
+*.class
+
+
