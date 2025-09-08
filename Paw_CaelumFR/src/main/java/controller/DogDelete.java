@@ -31,7 +31,7 @@ public class DogDelete extends HttpServlet {
 				return;
 				}else {
 				dogdao.deleteDog(dogid);
-				System.out.println("Successfully delected" + dogid);
+				System.out.println("Successfully deleted" + dogid);
 				HttpSession session = request.getSession(false);
 	            int ownerId = (int) session.getAttribute("id");
 	            List<Dog> updatedDogs = dogdao.getDogForOwner(ownerId);

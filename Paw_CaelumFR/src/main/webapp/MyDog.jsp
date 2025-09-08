@@ -136,7 +136,7 @@
               status = "Error loading status";
           }
     %>
-    <div class="dogBox">
+   <div class="dogBox">
       <div class="cardFlipInner">
         <div class="dogFront">
           <img src="<%= myd.getPhoto() %>" class="dogPic" />
@@ -174,6 +174,5 @@
     %>
   </div>
 </div>
-
 </body>
 </html>
