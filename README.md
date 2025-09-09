@@ -5,12 +5,12 @@ Paw_Caelum is a Java web app that connects dog owners and walkers for end-to-end
 
 
 ## Table of Content
-- [User Flows & Interactions](user_flows_&_interactions)
-- [Built With](built_with)
-- [Getting Start](getting_start)
+- [User Flows and Interactions](#user-flows-and-interactions)
+- [Built With](#built-with)
+- [Getting Start](#getting-start)
 
   
-## User Flows & Interactions
+## User Flows and Interactions
 - **Accounts & Role-Based Access**
   - Sign up as **Owner** or **Walker**; login creates a session with user ID and role.
   - Role-specific dashboards surface only the actions each role needs and protect pages behind authentication.
