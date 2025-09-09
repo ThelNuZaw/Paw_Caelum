@@ -104,6 +104,7 @@ cd Paw_CaelumGit/
        - `Maven Dependencies`
        -  `/src/main/webapp`
        -  `/src/main/java`
+         
 6. **Database Password Change**
    - Make sure to change the existing password with your own database password for JDBC connection.
 
@@ -112,7 +113,7 @@ cd Paw_CaelumGit/
    - Right-click in Servers -> New -> Server -> pick your Tomcat.
    - Add the project to the server -> Start the server.
      
-8. **Open the projec in a browser**
+8. **Open the project in a browser**
    ```bash
    http://localhost:8080/Paw_CaelumWebApp/MainPage.jsp 
    ```
